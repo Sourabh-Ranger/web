@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+        <!-- Required meta tags always come first--> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+         <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-social@5.1.1/bootstrap-social.css">
+        <link rel="stylesheet" href="./gym.css">
+
+    <title>GYM BUDDY</title>
+</head>
+
+<body>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                   <h1>GYM BUDDY</h1>
+                    <p>We group of students took initiative to build a website that would suggest people about their health in terms of fitness.</p>
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <img src="https://th.bing.com/th/id/OIP.Zvo0lXgq5GoW6Alm8kVMQQHaIA?w=200&h=216&c=7&o=5&dpr=1.88&pid=1.7" height="60" width="60" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-3 align-self-center reserve">
+                    <a><button type="submit" id="reservebutton" class="btn btn-warning bt ">Reserve a Trial</button></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+    <div id="reservemodal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Reserve a trial</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="decideseats" class="col-sm-3">Number of days</label>
+                                <label class="radio-inline"><input type="radio" name="forseats" id="for1seat" value="1">1</label>
+                                <label class="radio-inline"><input type="radio" name="forseats" id="for2seat" value="2">2</label>
+                                <label class="radio-inline"><input type="radio" name="forseats" id="for3seat" value="3">3</label>
+                                <label class="radio-inline"><input type="radio" name="forseats" id="for4seat" value="4">4</label>
+                                <label class="radio-inline"><input type="radio" name="forseats" id="for5seat" value="5">5</label>
+                                <label class="radio-inline"><input type="radio"  name="forseats" id="for6seat" value="6">6</label>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class=form-group>
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label for="section" class="col-sm-5">Section</label>
+                                    <label class="btn btn-success active" for="option1">
+                                      <input type="radio" name="options" id="option1" autocomplete="off" checked>Vegetarian</label>
+                                    <label class="btn btn-danger" for="option2">
+                                      <input type="radio" name="options" id="option2" autocomplete="off"> Non-Vegetarian</label>
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="dateandtime" name="datetime" class="col-sm-3">Date and Time</label>
+                                <input type="date" name="datetime" id="date">
+                                <input type="time" name="datetime" id="time">
+                            </div>     
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group offset-2">
+                            <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Reserve</button>    
+                            </div>    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-content align-items-center sasi">
+            <!--<ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item active">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">About us</a></li>
+                <li class="breadcrumb-item "><a href="#">contact us</a></li>
+            </ol>-->
+            <div class="media">
+            <img src="https://th.bing.com/th/id/OIP.LhtEko2na7dG_HTtl3ZZ0wHaEK?w=304&h=180&c=7&o=5&dpr=1.88&pid=1.7" class="img-fluid d-flex mr-3 align-self-center img-thumbnail" alt="plank pasition" height="150" width="200" border:none>
+            <div class="media-body">
+                <h2 class="mt-0">Plank exercises<span class="j"><span class="badge badge-danger">ABS</span><span class="badge badge-pill badge-secondary">Muscle Improvement</span>
+                </h2>
+                <div class="col-12 col-sm"><p>A plank is a simple,but effective core exercise that helps you build stability and strength throughtout your entire body.The plank is achievable in a number of different methods, but the main goal of the plank exercise will have you with your body perpendicular to the ground, stomach facing down, elevating your torso off the ground with either your elbows or hands</p>
+            </div></div>
+        </div></div>
+        <div class="row row-kiran">
+            <div class="col-12 col-sm media-body">
+                <h2>Leg Crunches<span class="badge badge-danger">belly</span></h2>
+                <div class="d-none d-sm-block"><p>Lie on your back with your knees bent and a 3-pound dumbbell between your feet. Place your hands, palms down, beneath your sitting bones.
+                    Concentrating on your lower abs, use them to bring your knees in toward your chest while lifting your hips, head, and shoulders slightly. Return to the starting position; that’s 1 rep.
+                    Do 15–30 reps 3–4 times a week; you should see results in 4 weeks. </p>
+            </div></div>
+            <div class="media">
+                <img src="https://th.bing.com/th/id/OIP.COIl9smIVniR7uXsX_L77QHaHa?w=181&h=181&c=7&o=5&dpr=1.88&pid=1.7" class="img-fluid d-flex mr-3 align-self-center img-thumbnail" alt="leg crunches" height="150" width="200">
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="media col-sm">
+                <img src="https://th.bing.com/th/id/OIP.ked4DeoiH6nkwFZBvfeCtgHaFL?w=222&h=180&c=7&o=5&dpr=1.88&pid=1.7" class="img-thumbnail d-block mr-3 align-self-center img-fluid" alt="Push ups" height="150" width="200">
+                <div class="media-body">
+                <h2 class="mt-0">push ups<span class="badge badge-danger">ABS</span></h2>
+                <div class="d-none d-sm-block"><p>Traditional pushups are beneficial for building upper body strength. They work the triceps, pectoral muscles, and shoulders. When done with proper form, they can also strengthen the lower back and core by engaging (pulling in) the abdominal muscles. </p>
+            </div></div></div>
+        </div>
+        <div class="row row-kiran">
+            <div class="col-12 col-sm media-body">
+                <h2>The hundred<span class="badge badge-danger">belly</span></h2>
+                <div class="d-none d-sm-block"><p>Lie on your back and lift your legs 45 degrees off of the floor. Squeeze your abs, lift your head and shoulders off the ground and pump your arms 100 times. </p>
+            </div></div>
+            <div class="media">
+                <img src="https://th.bing.com/th/id/OIP.clObYMObAHFkRZEJoGL1awHaHa?w=162&h=180&c=7&o=5&dpr=1.88&pid=1.7" class="img-fluid d-flex mr-3 align-self-center img-thumbnail" alt="The hundred" height="150" width="200">
+                </div>
+        </div>
+        <div class="row">
+            <div class="media col-sm">
+                <img src="https://th.bing.com/th/id/OIP.EpPAompZMCdxBcdSixf5qwHaEK?w=285&h=180&c=7&o=5&dpr=1.88&pid=1.7" class="img-thumbnail d-block mr-3 align-self-center img-fluid" alt="Body-weight squats" height="150" width="200">
+                <div class="media-body">
+                <h2 class="mt-0">Body-Weight Squats<span class="badge badge-pill badge-secondary">Muscles</span></h2>
+                <div class="d-none d-sm-block"><p> Stand with feet hip-width, knees bent slightly, hands crossed over chest. Squat down, pressing weight into feet. Make sure feet are pointing straight ahead and knees are over your toes; keep bum tucked. Return to standing.
+                    Do 5 sets of 5 reps.</p>
+            </div></div></div>
+        </div>
+        <div class="row row-kiran">
+            <div class="col-12 col-sm media-body">
+                <h2>Ab-Cross Crawl<span class="badge badge-danger">Reprogram nervous system</span></h2>
+                <div class="d-none d-sm-block"><p>Start on your back, bend your knees up with shins parallel to the floor and extend your arms to the ceiling.
+                    Straighten your left leg and extend your right arm back to about 6 inches off of the floor, and then come back to the original position.
+                    Then, repeat the exercise on the opposite side, keeping abs engaged.</p>
+            </div></div>
+            <div class="media">
+                <img src="data:image/jpeg;base64,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" class="img-fluid d-flex mr-3 align-self-center img-thumbnail" alt="Ab-Cross crawl" height="150" width="200">
+                </div>
+        </div>
+    </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">             
+                    <div class="col-4 offset-1 col-sm-2">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#"">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-7 col-sm-5">
+                        <h5>Our Address</h5>
+                        <address>
+                            IIT Tirupati Permanent Campus<br>
+                            Near yerpedu,Tirupati<br>
+                            ANDHRA PRADESH,INDIA<br>
+                          <span class="fa fa-phone"></span> : 7287827895<br>
+                          <span class="fa fa-fax"></span> : 852 8765 4321<br>
+                          <span class="fa fa fa-envelope-o" ></span> : <a href="mailto:confusion@food.net">gymbuddy@fitness.net</a>
+                       </address>
+                    </div>
+                    <div class="col-12 col-sm-4 align-self-center">
+                        <div class="text-center">
+                            <a class="btn btn-social-icon btn-google"href="http://google.com/"><span class="fa fa-google fa-lg"></span> </a>
+                            <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook fa-lg"></span> </a>
+                            <a class="btn btn-social-icon btn-linkedin"href="http://www.linkedin.com/in/"><span class="fa fa-linkedin fa-lg"></span> </a>
+                            <a class="btn btn-social-icon btn-twitter"href="http://twitter.com/"><span class="fa fa-twitter fa-lg"></span> </a>
+                            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><span class="fa fa-youtube fa-lg"></span> </a>
+                            <a class="btn btn-social-icon btn-google"href="mailto:"><span class="fa fa-envelope-o fa-lg"></span> </a>
+                        </div>
+                    </div>
+               </div>
+               <div class="row justify-content-center">             
+                    <div class="col-auto">
+                        <p>© Copyright 2020 GYM BUDDY</p>
+                    </div>
+               </div>
+            </div>
+        </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $('#reservemodal').modal({show:false});
+        $('#reservebutton').click(function(){
+            $('#reservemodal').modal('show');
+        });
+    </script>
+</body>
+</html>

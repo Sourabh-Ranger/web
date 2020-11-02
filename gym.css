@@ -1,0 +1,40 @@
+.footer{
+    background-color: #eed5c0;
+    
+}
+.navbar{
+    background-color: #8674f0;
+}
+.jumbotron {
+    
+    background: #11bd67 ;
+    color:floralwhite;
+    height: 200px;
+}
+
+.row-kiran{
+margin:20px;
+padding:60px 0px 60px 0px;
+}
+input[type="radio"]{
+    margin: 0px 10px 0px 10px;
+  }
+input[type="date"]{
+    margin:0px 10px 0px 10px;
+}
+.modal-body{
+    background-color: #D1C4E9;
+}
+.modal-header{
+    background-color: #614e8f;;
+    color:floralwhite;
+}
+.modal-content {
+    color:black;
+}
+.close{
+    color: floralwhite;
+}
+#forlogin{
+    color: floralwhite;
+}
